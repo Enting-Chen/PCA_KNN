@@ -33,7 +33,7 @@ daspect([1 1 1]);
 
 
 Vs1 = Vs';
-A3 = U(:, 1:i)*Vs1(1:i, :)+mean(A); %imgaes after compression
+A3 = U(:, 1:i)*Vs1(1:i, :)+mean(A); %images after compression
 
 eigenfaces = U(:, 1:i);
 train_data = normalize(Vs1(1:i, :));
